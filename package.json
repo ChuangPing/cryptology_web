@@ -5,14 +5,18 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "myserve": "set NODE_OPTIONS=\"--openssl-legacy-provider\" & npm run serve\n"
+
   },
   "dependencies": {
     "axios": "^0.27.2",
     "core-js": "^3.6.5",
     "element-ui": "^2.4.5",
+    "ipfs-http-client": "^56.0.1",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0"
+    "vue-router": "^3.2.0",
+    "web3": "^1.7.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.13",
